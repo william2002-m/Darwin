@@ -1,3 +1,4 @@
+flask
 pyrogram==2.0.106
 pymongo
 motor
@@ -6,4 +7,3 @@ dnspython
 tgcrypto==1.2.2
 asyncio
 python-dotenv
-flask
