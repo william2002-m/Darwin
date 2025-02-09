@@ -4,14 +4,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "21803165"))
-API_HASH = getenv("API_HASH", "05e5e695feb30e25bef47484cc006da7")
-BOT_TOKEN = getenv("BOT_TOKEN", "7638229482:AAE_RJ_ZF192RuuHd0HOVI509ZaTVc-h-Qg")
-OWNER_ID = int(getenv("OWNER_ID", "7403621976"))
-MONGO_URL = getenv("MONGO_URL", "mongodb+srv://Yash_607:Yash_607@cluster0.r3s9sbo.mongodb.net/?retryWrites=true&w=majority")
-SUPPORT_GRP = getenv("SUPPORT_GRP", "+OL6jdTL7JAJjYzVl")
-UPDATE_CHNL = getenv("UPDATE_CHNL", "BABY09_WORLD")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "UTTAM470")
+API_ID = int(getenv("API_ID", "12380656"))
+API_HASH = getenv("API_HASH", "d927c13beaaf5110f25c505b7c071273")
+BOT_TOKEN = getenv("BOT_TOKEN", "7719256942:AAH7fQBfgHwG2GDUXFP0DxwuPAOC0HDm7Yo")
+OWNER_ID = int(getenv("OWNER_ID", "7818584887"))
+MONGO_URL = getenv("MONGO_URL", "mongodb+srv://tennyson2002:tennyson2002@cluster0.h1vm3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+SUPPORT_GRP = getenv("SUPPORT_GRP", "https://t.me/THE_ARCHITECT_II")
+UPDATE_CHNL = getenv("UPDATE_CHNL", "THE_ARCHITECT_II")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Joyless_Times")
 
 # Random Start Images
 IMG = [
