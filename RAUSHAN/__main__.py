@@ -16,9 +16,10 @@ def run_bot():
     AMBOT().run()
 
 if __name__ == "__main__":
-    # Create a thread for Flask server
-    flask_thread = threading.Thread(target=run_flask)
+    # Create and start the Flask server in a separate thread
+    flask_thread = threading.Thread(target=run_flask, daemon=True)
     flask_thread.start()
 
-    # Run the bot in the main thread
+    # Run the Telegram bot in the main thread (non-blocking)
     run_bot()
+    
