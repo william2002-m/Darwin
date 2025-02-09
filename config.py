@@ -15,30 +15,30 @@ OWNER_USERNAME = getenv("OWNER_USERNAME", "UTTAM470")
 
 # Random Start Images
 IMG = [
-    "https://telegra.ph/file/00eb565274ccbffcf149d.jpg",
-    "https://telegra.ph/file/396e2af77c4664164de18.jpg",
-    "https://telegra.ph/file/6f92a0e943d68a15169c0.jpg",
-    "https://telegra.ph/file/d49fbf4c00f839641afe3.jpg",
-    "https://telegra.ph/file/cdcdceb3d4fc34675b815.jpg",
-    "https://telegra.ph/file/cc6259af790c13f98c38c.jpg",
-    "https://telegra.ph/file/ffa18225730df716d3532.jpg",
-    "https://telegra.ph/file/dc051f4160954159675a2.jpg",
-    "https://telegra.ph/file/e0e0a3f2addbf58b943e8.jpg",
-    "https://telegra.ph/file/2e6d9db59c537c4521440.jpg",
-    "https://telegra.ph/file/f1951920bbd57921d8820.jpg",
-    "https://telegra.ph/file/ece475f9a419442c18f1d.jpg",
-    "https://telegra.ph/file/99a0014129f08eb1a44dc.jpg",
-    "https://telegra.ph/file/ac8e3751509cf4e1b4756.jpg",
-    "https://telegra.ph/file/e07ef19b1f9bbde9909ad.jpg",
-    "https://telegra.ph/file/d3ee41261ed7779f30a89.jpg",
+    "https://graph.org/file/ab5a155a6526d9079035a-d46cdd744ad7da0354.jpg",
+    "https://graph.org/file/6ebedd1f14cfca6e10ef5-9f6140e5ca1422bf0c.jpg",
+    "https://graph.org/file/9e30d85dd9b87df975af8-bb234eb2268712aa12.jpg",
+    "https://graph.org/file/44165b57719ec2535f5b7-9db5b13155f2ec4261.jpg",
+    "https://graph.org/file/9b5c761f60359ebfa6686-017206bc40b8e5f7ad.jpg",
+    "https://graph.org/file/e6e1c31e53955a7cd0afa-c293d018a7a2d5caa9.jpg",
+    "https://graph.org/file/4ba22607737744fceb692-0cf0dee1616af7b6c2.jpg",
+    "https://graph.org/file/0baa559f7b9a179a616ce-91253fa748ed2d3c9d.jpg",
+    "https://graph.org/file/a1200b309205a71c975e0-7870cb2befa33625c9.jpg",
+    "https://graph.org/file/dfd2ebdd232c3d6f5efef-01307414f59a700201.jpg",
+    "https://graph.org/file/64d365cc16348b23ad207-7ac0d699385045ce13.jpg",
+    "https://graph.org/file/b59c3407e4a89c510cec0-c4030798f6d002096b.jpg",
+    "https://graph.org/file/78ca9196b8b15734ecdb0-3256365985622971ca.jpg",
+    "https://graph.org/file/5f99554ffb598382c39df-7566189b210eb28b19.jpg",
+    "https://graph.org/file/b4a21dea5257c2d8f815e-5700dfd2068ed5ed8b.jpg",
+    "https://graph.org/file/3e05bb096907eddd58567-3bc4004b3a1d4d60af.jpg",
 ]
 
 
 # Random Stickers
 STICKER = [
-    "CAACAgEAAxkBAAIJomRdLhVJVebkx0JRsp1STwTv3t3eAAJrAgAClpxhRD4z4bgqlIF0LwQ",
-    "CAACAgUAAxkBAAIJo2RdLhjLjCpmPipMT8ksrqwUjGAIAAK1BQACLZ8oVFVNmhalU8eOLwQ",
-    "CAACAgUAAxkBAAIJpGRdLkpU7t2WDj9zUFgCJ5uHUdGHAALTBAAC59CYV3t9x-f0tt4OLwQ",
+    "CAACAgUAAxkBAAEBDvJnqL37o0qT2q5xPCzdVqR22vIEMQACBQEAAixhEFWX1qR4VL-SQjYE",
+    "CAACAgUAAxkBAAEBDvBnqL3ogx5Eid1Rk-mr9ctg_-OGBwACGQEAAsARGFV9rBqVAAEkyLU2BA",
+    "CAACAgUAAxkBAAEBDu5nqL3hlvQ8cBou7bpPwMgD2JUJjQACCgEAAsF2EFWpMuowTvwDCDYE",
 ]
 
 
