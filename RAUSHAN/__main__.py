@@ -9,7 +9,7 @@ def home():
     return "Bot is running"
 
 def run_flask():
-    app.run(host="0.0.0.0", port=8000)
+    app.run(host="0.0.0.0", port=5000)
 
 def run_bot():
     LOGGER.info("The PURVI CHAT BOT Started.")
