@@ -6,7 +6,7 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID", "12380656"))
 API_HASH = getenv("API_HASH", "d927c13beaaf5110f25c505b7c071273")
-BOT_TOKEN = getenv("BOT_TOKEN", "7719256942:AAF1w99tOFv4t8E4mvRKoQfZmhyKUE7XbL8")
+BOT_TOKEN = getenv("BOT_TOKEN", "7719256942:AAHQ5RH90J7mYlBcv_HF9norMHHZCJPc4uI")
 OWNER_ID = int(getenv("OWNER_ID", "7818584887"))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://tennyson2002:tennyson2002@cluster0.h1vm3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 SUPPORT_GRP = getenv("SUPPORT_GRP", "https://t.me/THE_ARCHITECT_II")
