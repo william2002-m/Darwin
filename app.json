@@ -31,7 +31,7 @@
     "MONGO_URL": {
       "description": "Get a mongodb url from https://cloud.mongodb.com.",
       "required": true,
-      "value": "mongodb+srv://tennyson2002:tennyson2002@cluster0.h1vm3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+      "value": "mongodb+srv://cookies2002boy:cookies2002boy@cluster0.bc2ox.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     },
     "OWNER_ID": {
       "description": "User id of the user who will known as owner of the bot.",
