@@ -15,30 +15,15 @@ OWNER_USERNAME = getenv("OWNER_USERNAME", "Shunn_Mizushino")
 
 # Random Start Images
 IMG = [
-    "https://graph.org/file/ab5a155a6526d9079035a-d46cdd744ad7da0354.jpg",
-    "https://graph.org/file/6ebedd1f14cfca6e10ef5-9f6140e5ca1422bf0c.jpg",
-    "https://graph.org/file/9e30d85dd9b87df975af8-bb234eb2268712aa12.jpg",
-    "https://graph.org/file/44165b57719ec2535f5b7-9db5b13155f2ec4261.jpg",
-    "https://graph.org/file/9b5c761f60359ebfa6686-017206bc40b8e5f7ad.jpg",
-    "https://graph.org/file/e6e1c31e53955a7cd0afa-c293d018a7a2d5caa9.jpg",
-    "https://graph.org/file/4ba22607737744fceb692-0cf0dee1616af7b6c2.jpg",
-    "https://graph.org/file/0baa559f7b9a179a616ce-91253fa748ed2d3c9d.jpg",
-    "https://graph.org/file/a1200b309205a71c975e0-7870cb2befa33625c9.jpg",
-    "https://graph.org/file/dfd2ebdd232c3d6f5efef-01307414f59a700201.jpg",
-    "https://graph.org/file/64d365cc16348b23ad207-7ac0d699385045ce13.jpg",
-    "https://graph.org/file/b59c3407e4a89c510cec0-c4030798f6d002096b.jpg",
-    "https://graph.org/file/78ca9196b8b15734ecdb0-3256365985622971ca.jpg",
-    "https://graph.org/file/5f99554ffb598382c39df-7566189b210eb28b19.jpg",
-    "https://graph.org/file/b4a21dea5257c2d8f815e-5700dfd2068ed5ed8b.jpg",
-    "https://graph.org/file/3e05bb096907eddd58567-3bc4004b3a1d4d60af.jpg",
+    "https://graph.org/file/62d62bb8916c551d16605-a2aa0f7d5e3ef85ecb.jpg",
 ]
 
 
 # Random Stickers
 STICKER = [
-    "CAACAgUAAxkBAAEBDvJnqL37o0qT2q5xPCzdVqR22vIEMQACBQEAAixhEFWX1qR4VL-SQjYE",
-    "CAACAgUAAxkBAAEBDvBnqL3ogx5Eid1Rk-mr9ctg_-OGBwACGQEAAsARGFV9rBqVAAEkyLU2BA",
-    "CAACAgUAAxkBAAEBDu5nqL3hlvQ8cBou7bpPwMgD2JUJjQACCgEAAsF2EFWpMuowTvwDCDYE",
+    "CAACAgUAAxkBAAEBJhJn0zy3Dyb8tB90aW_kTRDSXF22TwACEAgAAuX8EVa5r3qLhL4JaTYE",
+    "CAACAgUAAxkBAAEBJhBn0zyiL5zlac377Su-PjI_iiqjFgAC-w8AAtf9qVZNgS1UEqYsFDYE",
+    "CAACAgUAAxkBAAEBJg5n0zyClxv-W42IoNCt1vcLg2NxxgACeAwAAsjxoFbK7ORKLb-drzYE",
 ]
 
 
