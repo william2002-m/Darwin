@@ -4,11 +4,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "12380656"))
-API_HASH = getenv("API_HASH", "d927c13beaaf5110f25c505b7c071273")
-BOT_TOKEN = getenv("BOT_TOKEN", "7682390664:AAEuOBn4bI_7IOBAJQaiYDsv3U4vPkSNTNU")
+API_ID = int(getenv("API_ID", "27758016"))
+API_HASH = getenv("API_HASH", "8d34cfffe27ab461eabbf0091b1a27df")
+BOT_TOKEN = getenv("BOT_TOKEN", "7616922989:AAHbdtrlRiglOthKAGOO2cyN9TAsWxVvqDc")
 OWNER_ID = int(getenv("OWNER_ID", "7364852621"))
-MONGO_URL = getenv("MONGO_URL", "mongodb+srv://tennyson2002:tennyson2002@cluster0.h1vm3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_URL = getenv("MONGO_URL", "mongodb+srv://fireteam875:fireteam875@cluster0.z4jsh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 SUPPORT_GRP = getenv("SUPPORT_GRP", "https://t.me/THE_ARCHITECT_II")
 UPDATE_CHNL = getenv("UPDATE_CHNL", "THE_ARCHITECT_II")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "Shunn_Mizushino")
