@@ -16,22 +16,22 @@
     "API_ID": {
       "description": "Get this value from my.telegram.org/apps.",
       "required": true,
-      "value": "12380656"
+      "value": "27758016"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org/apps.",
       "required": true,
-      "value": "d927c13beaaf5110f25c505b7c071273"
+      "value": "8d34cfffe27ab461eabbf0091b1a27df"
     },
     "BOT_TOKEN": {
       "description": "A Bot token from @BotFather",
       "required": true,
-      "value": "7682390664:AAEuOBn4bI_7IOBAJQaiYDsv3U4vPkSNTNU"
+      "value": "7616922989:AAHbdtrlRiglOthKAGOO2cyN9TAsWxVvqDc"
     },
     "MONGO_URL": {
       "description": "Get a mongodb url from https://cloud.mongodb.com.",
       "required": true,
-      "value": "mongodb+srv://cookies2002boy:cookies2002boy@cluster0.bc2ox.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+      "value": "mongodb+srv://fireteam875:fireteam875@cluster0.z4jsh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     },
     "OWNER_ID": {
       "description": "User id of the user who will known as owner of the bot.",
