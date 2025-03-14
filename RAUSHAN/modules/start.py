@@ -4,7 +4,6 @@ from pyrogram import Client, filters
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-# Assuming these are defined somewhere in your config
 from config import EMOJIOS, IMG, STICKER
 from RAUSHAN import BOT_NAME, AMBOT, dev
 from RAUSHAN.database.chats import add_served_chat
@@ -25,28 +24,31 @@ from RAUSHAN.modules.helpers import (
 async def start(_, m: Message):
     try:
         if m.chat.type == ChatType.PRIVATE:
-            # Send initial random emoji text
             accha = await m.reply_text(
                 text=random.choice(EMOJIOS),
             )
             await asyncio.sleep(1.3)
-            await accha.edit("__ᴋᴇᴇʀᴛʜɪ ʜᴇʀᴇ..__")
-            await asyncio.sleep(0.2)
-            await accha.edit("__sᴛᴀʀᴛɪɴɢ..__")
-            await asyncio.sleep(0.2)
-            await accha.edit("__sᴛᴀʀᴛᴇᴅ..__")
-            await asyncio.sleep(0.2)
+
+            # Handle message edit with different content
+            messages = [
+                "__ᴋᴇᴇʀᴛʜɪ ʜᴇʀᴇ..__",
+                "__sᴛᴀʀᴛɪɴɢ..__",
+                "__sᴛᴀʀᴛᴇᴅ..__"
+            ]
+            for msg in messages:
+                if accha.text != msg:  # Check if content is different
+                    await accha.edit(msg)
+                await asyncio.sleep(0.2)
+
             await accha.delete()
 
-            # Send random sticker
             umm = await m.reply_sticker(sticker=random.choice(STICKER))
             await asyncio.sleep(2)
             await umm.delete()
 
-            # Send the photo with bot details
             await m.reply_photo(
                 photo=random.choice(IMG),
-                caption=f"""**╭───────────────────⦿**\n**│⛩️ ʜᴇʏ ɪ ᴀᴍ {BOT_NAME} •**\n**├───────────────────⦿**\n**│-꩜> ɪ ʀᴇᴀᴅ ʏᴏᴜʀ ᴍɪɴᴅ •**\n**│⚡︎ ᴀɴ ᴀᴛᴇᴏ ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ •**\n**├───────────────────⦿**\n**│ꑭ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs •**\n**│☘ ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ •**\n**│✿ ғᴏʀ ᴀᴄᴛɪᴠᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ •**\n**│✇ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ] •**\n**│𖣐 ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ •**\n**│🔥 24x7 ᴛɪᴍᴇ ᴏɴʟɪɴᴇ •**\n**├───────────────────⦿**\n**│🦊 ᴍᴀᴅᴇ ʙʏ...[𝙈𝙖𝙧𝙬𝙞𝙣🤍](https://t.me/Shunn_Mizushino)**\n**╰───────────────────⦿""",
+                caption=f"""**╭───────────────────⦿**\n**│⛩️ ʜᴇʏ ɪ ᴀᴍ {BOT_NAME} •**\n**├───────────────────⦿**\n**│-꩜> ɪ ʀᴇᴀᴅ ʏᴏᴜʀ ᴍɪɴᴅ •**\n**│⚡︎ ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ •**\n**├───────────────────⦿**\n**│ꑭ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs •**\n**│☘ ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ •**\n**│✿ ғᴏʀ ᴀᴄᴛɪᴠᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ •**\n**│✇ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ] •**\n**│𖣐 ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ •**\n**│🔥 24x7 ᴛɪᴍᴇ ᴏɴʟɪɴᴇ •**\n**├───────────────────⦿**\n**│🦊 ᴍᴀᴅᴇ ʙʏ...[𝙈𝙖𝙧𝙬𝙞𝙣🤍](https://t.me/Shunn_Mizushino)**\n**╰───────────────────⦿""",
                 reply_markup=InlineKeyboardMarkup(DEV_OP),
             )
             await add_served_user(m.from_user.id)
@@ -103,4 +105,3 @@ async def welcome(_, m: Message):
             await m.reply_photo(photo=random.choice(IMG), caption=START)
     except Exception as e:
         print(f"Error in welcome command: {e}")
-        
